@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Bowl</title>
+</head>
+<body>
+    <h1>Welcome to the Puppy Bowl!</h1>
+
+    <div class="container">
+        <!-- Div for New Puppy Bowl Player Form Input -->
+        <div class="form-container">
+            <h2>Add a New Puppy Player</h2>
+            <form id="playerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter name"><br>
+
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" placeholder="Enter breed"><br>
+
+                <button type="submit">Add Player</button>
+            </form>
+        </div>
+
+        <!-- Div to Render Current Puppy Bowl Participants -->
+        <div class="participants-container">
+            <h2>Current Puppy Bowl Participants</h2>
+            <ul id="participantsList">
+                <!-- Participant data will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code for handling form submission and rendering participants will go here
+    </script>
+</body>
+</html>
